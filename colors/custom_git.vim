@@ -1,1 +1,1 @@
-lua require('sol').colorscheme()
+lua require('custom_git').colorscheme()
