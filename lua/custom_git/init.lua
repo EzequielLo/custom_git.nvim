@@ -247,7 +247,7 @@ local highlights = {
   { hg =  "TSVariableBuiltin", fg = colors.constant},
   { hg =  'TSTag', fg = colors.tag},
   --{ hg =  'TSTagAttribute', fg = colors.purple},
-  { hg =  'TSPunctDelimiter', fg = colors.fg},
+  { hg =  'TSPunctDelimiter', fg = colors.fg_gutter},
   --{ hg =  'TSPunctSpecial', fg = colors.cyan},
   --{ hg =  'TSTagDelimite', fg = colors.base00},
   --{ hg =  'TSPunctBracket', fg = colors.base00},
