@@ -208,9 +208,9 @@ local highlights = {
   { hg =  "TSDanger" , fg = colors.bg, bg=colors.error}, 
   { hg =  "TSConstant " , fg = colors.constant}, 
   { hg =  "commentTSConstant" , fg = colors.keyword},
-  --{ hg =  "TSConstBuiltin" , fg = colors.variable}, 
-  --{ hg =  "TSConstMacro" , fg = colors.variable},
-  { hg =  "TSConstructor" , fg = colors.variable},
+  { hg =  "TSConstBuiltin" , fg = colors.variable}, 
+  { hg =  "TSConstMacro" , fg = colors.variable},
+  { hg =  "TSConstructor" , fg = colors.fg},
   --{ hg =  "TSError" , fg = colors.green},
   --{ hg =  "TSException" , fg = colors.cyan},
   { hg =  "TSField" , fg = colors.fg},
@@ -264,7 +264,7 @@ local highlights = {
 
   -- typescript
 	{ hg = "typescriptTSType" , fg = colors.variable }, 
-  { hg = "typescriptTSConstructor" , fg = colors.variable}, 
+  { hg = "typescriptTSConstructor" , fg = colors.fg}, 
   { hg = "typescriptTSTypeBuiltin" , fg = colors.constant}, 
 
 	   -- javascript
