@@ -283,6 +283,10 @@ local highlights = {
   { hg = "htmlEndTag", fg = colors.fg },
   { hg = "htmlTagName", fg = colors.fg},
   { hg = "htmlArg", fg = colors.string },
+	-- CSS
+  { hg = "cssTSProperty", fg = colors.func},
+  { hg = "cssTSType", fg = colors.tag },
+
 }
 
 M.colorscheme = function()
