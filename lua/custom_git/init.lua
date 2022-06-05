@@ -288,7 +288,7 @@ local highlights = {
   { hg = "cssTSType", fg = colors.tag },
 
   --IndentBlankline
-	{ hg = "IndentBlanklineChar" , fg = colors.bg2}, 
+	{ hg = "IndentBlanklineChar" , fg = colors.pmenu_bg}, 
 }
 
 
