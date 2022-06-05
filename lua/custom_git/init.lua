@@ -247,7 +247,7 @@ local highlights = {
   { hg =  "TSVariableBuiltin", fg = colors.constant},
   { hg =  'TSTag', fg = colors.tag},
   --{ hg =  'TSTagAttribute', fg = colors.purple},
-  { hg =  'TSPunctDelimiter', fg = colors.fg_gutter},
+  { hg =  'TSPunctDelimiter', fg = colors.fg},
   --{ hg =  'TSPunctSpecial', fg = colors.cyan},
   --{ hg =  'TSTagDelimite', fg = colors.base00},
   --{ hg =  'TSPunctBracket', fg = colors.base00},
@@ -287,7 +287,10 @@ local highlights = {
   { hg = "cssTSProperty", fg = colors.func},
   { hg = "cssTSType", fg = colors.tag },
 
+  --IndentBlankline
+	{ hg = "IndentBlanklineChar" , fg = colors.fg_light}, 
 }
+
 
 M.colorscheme = function()
   local highlight_cmds = {}
