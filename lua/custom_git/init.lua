@@ -250,7 +250,7 @@ local highlights = {
   { hg =  'TSPunctDelimiter', fg = colors.fg},
   --{ hg =  'TSPunctSpecial', fg = colors.cyan},
   --{ hg =  'TSTagDelimite', fg = colors.base00},
-  --{ hg =  'TSPunctBracket', fg = colors.base00},
+  { hg =  'TSPunctBracket', fg = colors.fg},
   --{ hg =  'TSText', fg = colors.base00},
   { hg =  'TSTextReference ', fg = colors.red},
 
