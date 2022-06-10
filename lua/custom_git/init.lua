@@ -121,7 +121,7 @@ local highlights = {
   { hg = 'CursorLineNr', fg=colors.cursor_line_nr }, --Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
   { hg = 'MatchParen', fg = colors.fg, bg=colors.match_paren_bg,gui = 'underline', cterm = 'underline' }, --The character under the cursor or just before it, if it is a paired bracket, and its match.
   { hg = 'ModeMsg', fg=colors.fg }, --'showmode' message (e.g., "-- INSERT --")
-  { hg = 'MoreMsg',fg=colors.blue }, --more-prompt
+  { hg = 'MoreMsg',fg=colors.bg_visual }, --more-prompt
   { hg = 'NonText' }, --'~' and '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line).
   { hg = 'Normal', fg =colors.fg,bg = colors.bg}, --normal text
   { hg = 'Pmenu', fg = colors.fg, bg = colors.pmenu_bg }, --Popup menu: normal item.
@@ -289,6 +289,15 @@ local highlights = {
 
   --IndentBlankline
 	{ hg = "IndentBlanklineChar" , fg = colors.bright_white}, 
+
+	--ts_rainbow
+	 { hg = 'rainbowcol1', fg = colors.orange, bg = colors.none }, 
+	 { hg = 'rainbowcol2', fg = colors.bright_green, bg = colors.none }, 
+	 { hg = 'rainbowcol3', fg = colors.yellow , bg = colors.none }, 
+	 { hg = 'rainbowcol4', fg = colors.blue, bg = colors.none }, 
+	 { hg = 'rainbowcol5', fg = colors.magenta, bg = colors.none }, 
+	 { hg = 'rainbowcol6', fg = colors.cyan, bg = colors.none }, 
+	 { hg = 'rainbowcol7', fg = colors.white, bg = colors.none },
 }
 
 
