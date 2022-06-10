@@ -292,12 +292,12 @@ local highlights = {
 
 	--ts_rainbow
 	 { hg = 'rainbowcol1', fg = colors.orange, bg = colors.none }, 
-	 { hg = 'rainbowcol2', fg = colors.bright_green, bg = colors.none }, 
-	 { hg = 'rainbowcol3', fg = colors.yellow , bg = colors.none }, 
-	 { hg = 'rainbowcol4', fg = colors.blue, bg = colors.none }, 
-	 { hg = 'rainbowcol5', fg = colors.magenta, bg = colors.none }, 
-	 { hg = 'rainbowcol6', fg = colors.cyan, bg = colors.none }, 
-	 { hg = 'rainbowcol7', fg = colors.white, bg = colors.none },
+--	 { hg = 'rainbowcol2', fg = colors.bright_green, bg = colors.none }, 
+--	 { hg = 'rainbowcol3', fg = colors.yellow , bg = colors.none }, 
+--	 { hg = 'rainbowcol4', fg = colors.blue, bg = colors.none }, 
+--	 { hg = 'rainbowcol5', fg = colors.magenta, bg = colors.none }, 
+--	 { hg = 'rainbowcol6', fg = colors.cyan, bg = colors.none }, 
+--	 { hg = 'rainbowcol7', fg = colors.white, bg = colors.none },
 }
 
 
