@@ -245,7 +245,7 @@ local highlights = {
   --{ hg =  "TSTypeQualifier" , fg = colors.cyan}, 
   { hg =  "TSVariable" , fg = colors.variable},
   { hg =  "TSVariableBuiltin", fg = colors.constant},
-  { hg =  'TSTag', fg = colors.fg},
+  { hg =  'TSTag', fg = colors.tag},
   { hg =  'TSTagAttribute', fg = colors.html_arg},
   { hg =  'TSPunctDelimiter', fg = colors.fg},
   --{ hg =  'TSPunctSpecial', fg = colors.cyan},
@@ -277,12 +277,6 @@ local highlights = {
   { hg = "javascriptTSProperty",fg = colors.func },
   { hg = "regexTSStringEscape", fg = colors.keyword },
 
-  -- html
-	{ hg = "htmlTSConstant", fg = colors.tag},
-  { hg = "htmlTag", fg = colors.fg },
-  { hg = "htmlEndTag", fg = colors.fg },
-  { hg = "htmlTagName", fg = colors.tag},
-  { hg = "htmlArg", fg = colors.html_arg },
 	-- CSS
   { hg = "cssTSProperty", fg = colors.func},
   { hg = "cssTSType", fg = colors.tag },
