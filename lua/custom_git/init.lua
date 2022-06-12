@@ -249,7 +249,7 @@ local highlights = {
   --{ hg =  'TSPunctSpecial', fg = colors.cyan},
   { hg =  'TSTagDelimiter', fg = colors.fg},
   { hg =  'TSPunctBracket', fg = colors.fg},
-  { hg =  'TSText', fg = colors.fg},
+  --{ hg =  'TSText', fg = colors.base00},
   { hg =  'TSTextReference ', fg = colors.red},
 
   -- Telescope
