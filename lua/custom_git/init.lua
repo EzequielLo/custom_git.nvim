@@ -243,7 +243,7 @@ local highlights = {
   --{ hg =  "TSTypeQualifier" , fg = colors.cyan}, 
   { hg =  "TSVariable" , fg = colors.variable},
   { hg =  "TSVariableBuiltin", fg = colors.constant},
-  { hg =  'TSTag', fg = colors.constant},
+  { hg =  'TSTag', fg = colors.fg},
   { hg =  'TSTagAttribute', fg = colors.constant},
   { hg =  'TSPunctDelimiter', fg = colors.fg},
   --{ hg =  'TSPunctSpecial', fg = colors.cyan},
