@@ -249,7 +249,7 @@ local highlights = {
   --{ hg =  'TSPunctSpecial', fg = colors.cyan},
   { hg =  'TSTagDelimiter', fg = colors.fg},
   { hg =  'TSPunctBracket', fg = colors.fg},
-  --{ hg =  'TSText', fg = colors.base00},
+  { hg =  'TSText', fg = colors.fg},
   { hg =  'TSTextReference ', fg = colors.red},
 
   -- Telescope
@@ -276,11 +276,11 @@ local highlights = {
   { hg = "regexTSStringEscape", fg = colors.keyword },
 
   -- html
---	{ hg = 'htmlTSConstant', fg = colors.constant}, 
---	{ hg = 'htmlTag', fg = colors.fg}, 
---	{ hg = 'htmlEndTag', fg = colors.fg}, 
---	{ hg = 'htmlTagName', fg = colors.constant}, 
---	{ hg = 'htmlArg', fg = colors.constant},
+  --{ hg = 'htmlTSConstant', fg = colors.constant}, 
+  --{ hg = 'htmlTag', fg = colors.fg}, 
+	--{ hg = 'htmlEndTag', fg = colors.fg}, 
+	--{ hg = 'htmlTagName', fg = colors.constant}, 
+	--{ hg = 'htmlArg', fg = colors.constant},
 
 	-- CSS
   { hg = "cssTSProperty", fg = colors.func},
