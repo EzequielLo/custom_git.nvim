@@ -279,10 +279,10 @@ local highlights = {
 
   -- html
 	{ hg = "htmlTSConstant", fg = colors.tag},
-  { hg = "htmlTag", fg = colors.tag },
+  { hg = "htmlTag", fg = colors.fg },
   { hg = "htmlEndTag", fg = colors.fg },
-  { hg = "htmlTagName", fg = colors.fg},
-  { hg = "htmlArg", fg = colors.string },
+  { hg = "htmlTagName", fg = colors.tag},
+  { hg = "htmlArg", fg = colors.html_arg },
 	-- CSS
   { hg = "cssTSProperty", fg = colors.func},
   { hg = "cssTSType", fg = colors.tag },
