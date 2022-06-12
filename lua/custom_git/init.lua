@@ -27,7 +27,7 @@ local colors = {
     func = '#6f42c1',
     func_param = '#24292e',
     match_paren_bg = '#c6eed2',
-    tag = '#24292f',
+    tag = '#005cc5',
     html_arg = '#005cc5',
     param = '#e36209',
     json_label = '#005cc5',
@@ -246,7 +246,7 @@ local highlights = {
   { hg =  "TSVariable" , fg = colors.variable},
   { hg =  "TSVariableBuiltin", fg = colors.constant},
   { hg =  'TSTag', fg = colors.tag},
-  { hg =  'TSTagAttribute', fg = colors.html_arg},
+  --{ hg =  'TSTagAttribute', fg = colors.html_arg},
   { hg =  'TSPunctDelimiter', fg = colors.fg},
   --{ hg =  'TSPunctSpecial', fg = colors.cyan},
   { hg =  'TSTagDelimite', fg = colors.fg},
@@ -267,7 +267,7 @@ local highlights = {
   { hg = "typescriptTSConstructor" , fg = colors.fg}, 
   { hg = "typescriptTSTypeBuiltin" , fg = colors.constant}, 
 
-	   -- javascript
+	-- javascript
   { hg = "javascriptTSType", fg = colors.variable },
   { hg = "javascriptTSParameter", fg = colors.param },
   { hg = "javascriptTSVariable", fg = colors.variable },
@@ -276,6 +276,13 @@ local highlights = {
   { hg = "javascriptTSConstructor", fg = colors.variable},
   { hg = "javascriptTSProperty",fg = colors.func },
   { hg = "regexTSStringEscape", fg = colors.keyword },
+
+  -- html
+	{ hg = 'htmlTSConstant', fg = colors.tag}, 
+	{ hg = 'htmlTag', fg = colors.fg}, 
+	{ hg = 'htmlEndTag', fg = colors.fg}, 
+	{ hg = 'htmlTagName', fg = colors.tag}, 
+	{ hg = 'htmlArg', fg = colors.html_arg},
 
 	-- CSS
   { hg = "cssTSProperty", fg = colors.func},
