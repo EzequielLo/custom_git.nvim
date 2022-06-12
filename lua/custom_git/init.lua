@@ -276,11 +276,11 @@ local highlights = {
   { hg = "regexTSStringEscape", fg = colors.keyword },
 
   -- html
-	{ hg = 'htmlTSConstant', fg = colors.constant}, 
-	{ hg = 'htmlTag', fg = colors.fg}, 
-	{ hg = 'htmlEndTag', fg = colors.fg}, 
-	{ hg = 'htmlTagName', fg = colors.constant}, 
-	{ hg = 'htmlArg', fg = colors.constant},
+--	{ hg = 'htmlTSConstant', fg = colors.constant}, 
+--	{ hg = 'htmlTag', fg = colors.fg}, 
+--	{ hg = 'htmlEndTag', fg = colors.fg}, 
+--	{ hg = 'htmlTagName', fg = colors.constant}, 
+--	{ hg = 'htmlArg', fg = colors.constant},
 
 	-- CSS
   { hg = "cssTSProperty", fg = colors.func},
