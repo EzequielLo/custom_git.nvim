@@ -192,7 +192,7 @@ local highlights = {
   -- LspTrouble
   { hg = 'LspTroubleText', fg = colors.fg },
   { hg = 'LspTroubleCount', fg = colors.magenta, bg=colors.fg_gutter },
-  { hg = 'LspTroubleNormal', fg = colors.bright_yellow, bg=colors.bg_sidebar }, 
+  { hg = 'LspTroubleNormal', fg = colors.pmenu_bg, bg=colors.pmenu_bg }, 
 	
   -- These groups are for the neovim tree-sitter highlights.
   --{ hg =  "TSAnnotation " , fg = colors.red},
