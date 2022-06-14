@@ -255,8 +255,8 @@ local highlights = {
   --{ hg =  'TSText', fg = colors.base00},
   { hg =  'TSTextReference ', fg = colors.red},
 	-- TSX (Typescript React)
-	tsxTSConstructor = { fg = colors.constant },
-	tsxTSTagAttribute = { fg = colors.constant },
+	{ hg = "tsxTSConstructor" , fg = colors.constant },
+	{ hg = "txTSTagAttribute",  fg = colors.constant },
 
   -- Telescope
   { hg = "TelescopePromptBorder", fg = colors.border }, 
